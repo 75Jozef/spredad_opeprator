@@ -21,6 +21,15 @@ function App() {
     });
   }
 
+  //   setContact(prevValue => {
+  //     return {
+  //       ...prevValue, [name]: value
+  //      };
+  //   });
+  // }
+
+  // tento kod kratky funguje, pretože [name] v hranatých prenáša do objektu nie novú položku "name", ale toString, čo je v nej ako v premennej; to je nová funkcionalita ES6; ak by to nebolo v [], tak je to nová položka name; a išlo by to len kódom, ktorý som napísal hore a ten tiež funguje;
+
   return (
     <div className="container">
       <h1>
